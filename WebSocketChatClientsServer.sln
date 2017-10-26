@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketServer", "WebSocketServer\WebSocketServer.csproj", "{77409A23-5F12-4643-ACE6-2C10AFB0F7ED}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebChatClient", "WebChatClient\", "{091E0AA1-DE42-4EE8-8A28-61F633930640}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53466"
+		Debug.AspNetCompiler.PhysicalPath = "WebChatClient\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53466\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53466"
+		Release.AspNetCompiler.PhysicalPath = "WebChatClient\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53466\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53466"
+		SlnRelativePath = "WebChatClient\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopChatClient", "DesktopChatClient\DesktopChatClient.csproj", "{E5000507-972B-437D-9CD4-6E46264B5CBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77409A23-5F12-4643-ACE6-2C10AFB0F7ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77409A23-5F12-4643-ACE6-2C10AFB0F7ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77409A23-5F12-4643-ACE6-2C10AFB0F7ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77409A23-5F12-4643-ACE6-2C10AFB0F7ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{091E0AA1-DE42-4EE8-8A28-61F633930640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{091E0AA1-DE42-4EE8-8A28-61F633930640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{091E0AA1-DE42-4EE8-8A28-61F633930640}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{091E0AA1-DE42-4EE8-8A28-61F633930640}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E5000507-972B-437D-9CD4-6E46264B5CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5000507-972B-437D-9CD4-6E46264B5CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5000507-972B-437D-9CD4-6E46264B5CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5000507-972B-437D-9CD4-6E46264B5CBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74F06D84-6E77-445F-A4DA-715E114BA5C1}
+	EndGlobalSection
+EndGlobal
